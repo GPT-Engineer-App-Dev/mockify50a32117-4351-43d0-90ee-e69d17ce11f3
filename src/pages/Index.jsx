@@ -37,7 +37,7 @@ const Index = () => {
 
   return (
     <VStack p={8}>
-      <Heading mb="8">Todo App ❤️</Heading>
+      <Heading mb="8">Todo App</Heading>
       <HStack>
         <Input value={inputValue} onChange={handleInputChange} onKeyPress={handleKeyPress} placeholder="Add a new task..." />
         <IconButton icon={<FaPlus />} onClick={addTodo} colorScheme="blue" aria-label="Add todo" />
